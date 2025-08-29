@@ -61,6 +61,15 @@
             flex-grow: 1;
             overflow-x: auto;
         }
+
+        header {
+            border: none !important;
+        }
+
+        extended-uportal-header {
+            display: block;
+            height: var(--recia-header-height);
+        }
     </style>
 </head>
 

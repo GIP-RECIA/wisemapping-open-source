@@ -63,12 +63,6 @@
 			height: 100%;
 			width: 100%;
 		}
-
-		footer {
-            position: fixed;
-            bottom: 0;
-            width: inherit;
-        }
 	</style>
 </head>
 <body>
@@ -105,7 +99,6 @@
         </div>
     </div>
 </main>
-<%@ include file="/jsp/extendedUportalFooter.jsf" %>
 
 	<script type="text/javascript">
 		// Hook zoom events ...

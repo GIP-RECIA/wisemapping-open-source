@@ -54,12 +54,6 @@
         body > main {
             flex-grow: 1;
         }
-
-        footer {
-            position: fixed;
-            bottom: 0;
-            width: inherit;
-        }
     </style>
 </head>
 
@@ -73,7 +67,6 @@
     <script type="text/javascript" src="${requestScope['site.static.js.url']}/webapp/vendors.bundle.js" crossorigin="anonymous" defer></script>
     <script type="text/javascript" src="${requestScope['site.static.js.url']}/webapp/app.bundle.js" crossorigin="anonymous" defer></script>
 </main>
-<%@ include file="/jsp/extendedUportalFooter.jsf" %>
 </body>
 
 </html>
