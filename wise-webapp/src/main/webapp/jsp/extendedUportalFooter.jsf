@@ -6,3 +6,37 @@
         template-api-path="${requestScope['extended-uportal.footer.props.template-api-path']}"
     />
 </footer>
+
+<style>
+    footer {
+        display: none;
+    }
+
+    @media only screen and (width >= 768px) {
+        footer {
+            display: unset;
+        }
+    }
+
+    @media only screen and (hover: hover) and (pointer: fine) {
+        body > main:hover {
+            ~ footer {
+                transform: translateY(calc(100% - 10px));
+            }
+
+            ~ footer:hover {
+                transform: translateY(0) !important;
+            }
+        }
+
+        footer {
+            display: unset;
+            position: fixed;
+            z-index: 2000;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            transition: transform .2s;
+        }
+    }
+</style>

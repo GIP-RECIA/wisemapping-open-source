@@ -99,6 +99,7 @@
         </div>
     </div>
 </main>
+<%@ include file="/jsp/extendedUportalFooter.jsf" %>
 
 	<script type="text/javascript">
 		// Hook zoom events ...

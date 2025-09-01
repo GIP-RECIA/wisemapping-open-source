@@ -7,3 +7,10 @@
         fname="${requestScope['extended-uportal.header.props.fname']}"
     />
 </header>
+
+<style>
+    extended-uportal-header {
+        display: block;
+        height: var(--recia-header-height);
+    }
+</style>
