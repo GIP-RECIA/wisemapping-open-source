@@ -12,5 +12,7 @@
     extended-uportal-header {
         display: block;
         height: var(--recia-header-height);
+        position: relative;
+        z-index: 2010;
     }
 </style>

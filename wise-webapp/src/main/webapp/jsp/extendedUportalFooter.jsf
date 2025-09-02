@@ -19,14 +19,12 @@
     }
 
     @media only screen and (hover: hover) and (pointer: fine) {
-        body > main:hover {
-            ~ footer {
-                transform: translateY(calc(100% - 10px));
-            }
+        body > main:hover ~ footer {
+            transform: translateY(calc(100% - 10px));
+        }
 
-            ~ footer:hover {
-                transform: translateY(0) !important;
-            }
+        body > main:hover ~ footer:hover {
+            transform: translateY(0) !important;
         }
 
         footer {
