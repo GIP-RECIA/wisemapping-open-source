@@ -19,7 +19,8 @@
     }
 
     @media only screen and (hover: hover) and (pointer: fine) {
-        body > main:hover ~ footer {
+        body > main:hover ~ footer,
+        body:has(> div[role="presentation"], > #textContainer) > footer {
             transform: translateY(calc(100% - 10px));
         }
 
@@ -30,7 +31,7 @@
         footer {
             display: unset;
             position: fixed;
-            z-index: 2000;
+            z-index: 1300;
             bottom: 0;
             right: 0;
             left: 0;
